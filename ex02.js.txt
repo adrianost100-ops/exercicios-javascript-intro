@@ -1,0 +1,13 @@
+// Declaração das variáveis
+let nomeVendedor = "Adriano";
+let salarioBase = 1500;
+let totalVendasMes = 5000;
+
+// Cálculo da comissão
+let comissao = totalVendasMes * 0.12;
+
+// Salário final
+let salarioFinal = salarioBase + comissao;
+
+// Saída formatada
+console.log(`O vendedor ${nomeVendedor} receberá R$ ${salarioFinal.toFixed(2)} este mês, sendo R$ ${comissao.toFixed(2)} de bônus.`);

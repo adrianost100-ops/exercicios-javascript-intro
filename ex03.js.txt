@@ -1,0 +1,15 @@
+// Declaração das variáveis
+let valorReal = 100;
+let cotacaoDolar = 5.00;
+
+// Conversão
+let valorDolar = valorReal / cotacaoDolar;
+
+// Saída
+console.log(`R$ ${valorReal} equivalem a US$ ${valorDolar.toFixed(2)}`);
+
+/*
+Se a cotacaoDolar fosse uma String (ex: "5.00"),
+o JavaScript poderia até converter automaticamente em alguns casos,
+mas isso não é o ideal. O correto é usar Number em cálculos.
+*/
